@@ -1,0 +1,174 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utilities */
+
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 62.5%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/* header */
+
+/* nav bar */
+
+nav ul {
+  text-align: center;
+}
+
+nav ul a {
+  margin: 3% 7%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.plan {
+  background: #FF764E;
+  transition: .3s ease;
+} 
+
+.plan:hover {
+  color: #FFCD69;
+  transition: .3s ease;
+}
+
+.learn {
+  background: #5ED3EB;
+  transition: .3s ease;
+}
+
+.learn:hover {
+  color: #FF764E;
+}
+
+.involved {
+  background: #FFCD69; 
+}
+
+.involved:hover {
+  color: #5ED3EB;
+}
+
+/* showcase */
+
+.showcase {
+  margin: 2% 0 5% 0;
+
+}
+
+.showcase img {
+  width: 22%;
+  border-radius: 50%;
+  margin: auto 0 auto 10%;;
+}
+
+.showcase-content {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  letter-spacing: 2px;
+  margin-left: 5%;
+}
+
+.showcase-content h1 {
+  font-size: 4rem;
+  font-family: 'Chelsea Market', sans-serif;
+  line-height: 8rem;
+}
+
+.showcase-content p {
+  font-size: 1rem;
+  padding: 2%;
+}
+
+/* Article & Sections */
+
+.about-info {
+  background: #D59D85;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.about-info p {
+  color: #fff;
+  padding: 1%;
+}
+
+/* tips section */
+
+.sec-tips {
+  margin: 2% 0;
+  text-align: center;
+}
+
+.tip {
+  margin-bottom: 5%;
+}
+
+.tip img {
+  width: 10%;
+  margin: 0 auto;
+  padding-bottom: 1%;
+}
+
+.tip p {
+  width: 20%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+}
+
+/* footer */
+footer {
+  position: relative;
+}
+
+footer img {
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.footer-nav {
+  background: rgb(255, 234, 233);
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 1px;
+  text-align: center;
+}
+
+.footer-nav a {
+  margin: 5% 7%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
