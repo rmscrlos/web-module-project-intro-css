@@ -21,65 +21,67 @@ body {
 
 /* nav bar */
 
-nav {
-  margin: 3% 0;
-}
-
 nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
+  text-align: center;
 }
 
 nav ul a {
+  margin: 3% 5%;
+  display: inline-block;
+  text-align: center;
   padding: 5px 30px;
   border-radius: 20px;
-  text-align: center;
   font-size: 1.2rem;
   text-decoration: none;
   color: #fff;
-  margin: 0 6%;
 }
 
-.plan {
+  .plan {
   background: #FF764E;
-}
+} 
 
 .learn {
   background: #5ED3EB;
 }
 
 .involved {
-  background: #FFCD69;
+  background: #FFCD69; */
 }
 
 /* showcase */
 
 .showcase {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3% 0;
-  padding: 2% 0;
+  margin: 2% 0 5% 0;
+
 }
 
 .showcase img {
   width: 22%;
   border-radius: 50%;
+  margin: auto 10%;
 }
 
 .showcase-content {
+  display: inline-block;
   text-align: center;
-  margin-left: 8%;
+  position: relative;
+  bottom: 50px;
   letter-spacing: 2px;;
 }
 
 .showcase-content h1 {
   font-size: 4rem;
   font-family: 'Chelsea Market', sans-serif;
+  line-height: 8rem;
 }
 
 .showcase-content p {
   font-size: 1rem;
   padding: 2%;
+}
+
+/* Article & Sections */
+
+.about-info {
+  background
 }
