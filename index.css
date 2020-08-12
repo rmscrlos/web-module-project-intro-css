@@ -12,6 +12,8 @@
   padding: 0;
 }
 
+/* Utilities */
+
 body {
   font-family: 'Roboto Mono', sans-serif;
   font-size: 62.5%;
@@ -20,6 +22,7 @@ body {
 strong {
   font-weight: bold;
 }
+
 
 /* header */
 
@@ -30,7 +33,7 @@ nav ul {
 }
 
 nav ul a {
-  margin: 3% 5%;
+  margin: 3% 7%;
   display: inline-block;
   text-align: center;
   padding: 5px 30px;
@@ -40,16 +43,31 @@ nav ul a {
   color: #fff;
 }
 
-  .plan {
+.plan {
   background: #FF764E;
+  transition: .3s ease;
 } 
+
+.plan:hover {
+  color: #FFCD69;
+  transition: .3s ease;
+}
 
 .learn {
   background: #5ED3EB;
+  transition: .3s ease;
+}
+
+.learn:hover {
+  color: #FF764E;
 }
 
 .involved {
-  background: #FFCD69; */
+  background: #FFCD69; 
+}
+
+.involved:hover {
+  color: #5ED3EB;
 }
 
 /* showcase */
@@ -100,6 +118,8 @@ nav ul a {
   padding: 1%;
 }
 
+/* tips section */
+
 .sec-tips {
   margin: 2% 0;
   text-align: center;
@@ -119,4 +139,36 @@ nav ul a {
   width: 20%;
   margin: 0 auto;
   font-size: 0.8rem;
+}
+
+/* footer */
+footer {
+  position: relative;
+}
+
+footer img {
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.footer-nav {
+  background: rgb(255, 234, 233);
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: 1px;
+  text-align: center;
+}
+
+.footer-nav a {
+  margin: 5% 7%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 30px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
 }
