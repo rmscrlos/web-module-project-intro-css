@@ -58,7 +58,7 @@ nav ul a {
 .showcase img {
   width: 22%;
   border-radius: 50%;
-  margin: auto 10%;
+  margin: auto 0 auto 10%;;
 }
 
 .showcase-content {
@@ -66,7 +66,8 @@ nav ul a {
   text-align: center;
   position: relative;
   bottom: 50px;
-  letter-spacing: 2px;;
+  letter-spacing: 2px;
+  margin-left: 5%;
 }
 
 .showcase-content h1 {
@@ -83,5 +84,14 @@ nav ul a {
 /* Article & Sections */
 
 .about-info {
-  background
+  background: #D59D85;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.about-info p {
+  color: #fff;
+  padding: 1%;
 }
